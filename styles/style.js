@@ -9,8 +9,8 @@ const inputStyled = (input) => {
 }
 
 const buttonStyled = (button) => {
-  button.style.backgroundColor = '#00BFFF';
-  button.style.color = 'white';
+  button.style.backgroundColor = '#fffaaa';
+  button.style.color = '#fffff';
   button.style.border = 'none';
   button.style.padding = '15px 32px';
   button.style.textAlign = 'center';
@@ -19,7 +19,7 @@ const buttonStyled = (button) => {
   button.style.fontSize = '16px';
   button.style.cursor = 'pointer';
   button.style.borderRadius = '30px';
-  button.boxShadow = '9px 7px 5px rgba(50, 50, 50, 0.77)';
+  button.style.boxShadow = '0px 8px 15px rgba(0, 0, 0, 0.1)';
 }
 
 export { inputStyled, buttonStyled };
